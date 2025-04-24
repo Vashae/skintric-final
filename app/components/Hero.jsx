@@ -1,7 +1,16 @@
-import React from 'react'
+import React from 'react' 
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
-    <div className='flex'>Skinstric </div>
+    <div className='flex h-[100px] flex-row justify-between'>
+      <div className='ml-2 flex text-sm scale-75'> 
+        <Link href='/'><p className='font-bold'>SKINSTRIC</p></Link>
+       <p className='pl-3 flex text-sm text-center '>[ INTRO ]</p> </div>
+       <div><Button className='text-sm mr- scale-75' variant='ghost'>Enter Code</Button></div>
+       </div>
+    
+    
   )
 }
