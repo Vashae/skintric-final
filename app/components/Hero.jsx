@@ -8,9 +8,8 @@ export default function Hero() {
       <div className='ml-2 flex text-sm scale-75'> 
         <Link href='/'><p className='font-bold'>SKINSTRIC</p></Link>
        <p className='pl-3 flex text-sm text-center '>[ INTRO ]</p> </div>
-       <div><Button className='text-sm mr- scale-75' variant='ghost'>Enter Code</Button></div>
+       <div><Button className='text-sm mr-2 scale-75 bg-black text-white' variant='ghost' >Enter Code</Button></div>
        </div>
-    
-    
+
   )
 }
