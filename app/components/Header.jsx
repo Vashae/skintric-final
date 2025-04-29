@@ -2,9 +2,9 @@ import React from 'react'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 
-export default function Hero() {
+export default function Header() {
   return (
-    <div className='flex h-[100px] flex-row justify-between'>
+    <div className='flex h-[100px] py-3 mb-3 flex-row justify-between'>
       <div className='ml-2 flex text-sm scale-75'> 
         <Link href='/'><p className='font-bold'>SKINSTRIC</p></Link>
        <p className='pl-3 flex text-sm text-center '>[ INTRO ]</p> </div>
